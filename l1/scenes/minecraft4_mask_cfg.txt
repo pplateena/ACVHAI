@@ -1,0 +1,7 @@
+
+# --- exported mask config ---
+lower = np.array([0, 0, 120])  # H S V min
+upper = np.array([66, 146, 195])  # H S V max
+erode_iter = 1
+open_iter  = 1
+# ----------------------------

@@ -1,3 +1,18 @@
+# NAVIGATION
+
+| Шлях | Опис |
+|------|------|
+| [v1/](v1/) | перша версія, лише для довідки |
+| [v2/](v2/) | робоча папка |
+| [v2/main_clean.py](v2/main_clean.py) | основний скрипт: вертикальні, горизонтальні, контактні краї + грані → sparse lsqr solver |
+| [v2/main_propagation.py](v2/main_propagation.py) | експериментальна версія з детекцією верхніх граней та поширенням висоти (гірші результати) |
+| [v2/tuner.py](v2/tuner.py) | інтерактивний інструмент для налаштування HSV-маски та порогів (OpenCV trackbars) |
+| [v2/show_plot.py](v2/show_plot.py) | окремий скрипт для відображення збереженого Y_solved.npy без повторного розв'язання |
+| [scenes/](scenes/) | вхідні зображення |
+| [v2/processed_clean/](v2/processed_clean/) | результати основної версії (debug-зображення + 3D) |
+| [v2/processed_clean_with_ground/](v2/processed_clean_with_ground/) | результати з урахуванням ground constraint |
+| [v2/processed_propagation/](v2/processed_propagation/) | результати версії з поширенням висоти |
+
 ЛР №1. “Реконструювання тривимірних композицій зі світу блоків за їх зображеннями”
 Граничний термін виконання
 18.03.2026р.

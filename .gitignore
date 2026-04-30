@@ -1,3 +1,22 @@
 *.docx*
 .idea
 *references*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & archives
+data/
+*.tar
+*.tar.gz
+*.zip
+
+# Model weights
+*.pt
+*.pth
+*.ckpt

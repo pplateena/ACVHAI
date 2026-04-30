@@ -16,7 +16,7 @@
     1. Застосувати до 10 зображень наступні фільтри без прямого використання згортки (через перетворення Фур’є):
         a. Sobel (vertical | horizontal)
         b. Gaussian blur
-        c. Median filter
+        c. Mean filter
         d. Laplacian
         e. Sharr filter
         f. Також візуалізувати амплітуди ДПФ для ядер цих фільтрів.

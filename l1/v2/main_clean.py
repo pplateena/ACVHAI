@@ -107,12 +107,12 @@ t0 = time.time()
 for py in range(1, height - 1):
     for px in range(1, width - 1):
 
-        if ground[py, px]:
-            add(row, px, py, 1)
-            b_list.append(0.0)
-            row += 1
+        # if ground[py, px]:
+        #     add(row, px, py, 1)
+        #     b_list.append(0.0)
+        #     row += 1
 
-        elif vert_edge[py, px]:
+        if vert_edge[py, px]:
             add(row, px, py + 1, 1)
             add(row, px, py - 1, -1)
             b_list.append(0.0)  # RHS filled after weighting
